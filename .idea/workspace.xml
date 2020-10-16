@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="caf93255-fc19-42bd-ac96-1b940c86651c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/snap/go/current" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1ilPgWhE3Jfp5KtMTCYkT3STr1l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/usecases" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="tweetlater" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="tweetlater" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tweetlater/main/*.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="tweetlater" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/app.go" />
+      <package value="tweetlater" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build tweetlater/main/*.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="836" y="213" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602768151884">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="836" y="213" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1602768151884" />
+    <state x="1206" y="352" width="458" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602768105048">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1206" y="352" width="458" height="408" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1602768105048" />
+    <state x="263" y="313" width="424" height="487" key="FileChooserDialogImpl" timestamp="1602479556686">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="263" y="313" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1602479556686" />
+    <state width="914" height="274" key="GridCell.Tab.0.bottom" timestamp="1602768099183">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1602768099183" />
+    <state width="914" height="274" key="GridCell.Tab.0.center" timestamp="1602768099181">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1602768099181" />
+    <state width="914" height="274" key="GridCell.Tab.0.left" timestamp="1602768099180">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1602768099180" />
+    <state width="914" height="274" key="GridCell.Tab.0.right" timestamp="1602768099182">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1602768099182" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1602767691123">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.30.1920.1050@0.30.1920.1050" timestamp="1602767691123" />
+    <state x="1203" y="371" width="463" height="371" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1602683011395">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1203" y="371" width="463" height="371" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1602683011395" />
+    <state x="393" y="142" width="708" height="682" key="dock-window-1" timestamp="1602753048257">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="393" y="142" width="708" height="682" key="dock-window-1/0.30.1920.1050@0.30.1920.1050" timestamp="1602753048257" />
+    <state x="120" y="182" width="708" height="682" key="dock-window-2" timestamp="1602756238543">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="120" y="182" width="708" height="682" key="dock-window-2/0.30.1920.1050@0.30.1920.1050" timestamp="1602756238543" />
+    <state x="250" y="67" width="708" height="682" key="dock-window-3" timestamp="1602840830933">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="250" y="67" width="708" height="682" key="dock-window-3/0.30.1920.1050@0.30.1920.1050" timestamp="1602840830933" />
+    <state x="1265" y="313" width="340" height="486" key="refactoring.ChangeSignatureDialog" timestamp="1602724802385">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1265" y="313" width="340" height="486" key="refactoring.ChangeSignatureDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1602724802385" />
+    <state x="1103" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1602763350071">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1103" y="261" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1602763350071" />
+  </component>
+</project>
