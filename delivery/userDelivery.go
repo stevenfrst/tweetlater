@@ -33,9 +33,9 @@ func (d *UserDelivery) InitRoute(mdw ...mux.MiddlewareFunc) {
 	userRouter.Use(mdw...)
 
 	userRouter.HandleFunc("", d.userPostRoute).Methods("POST")
-	userRouter.HandleFunc("", d.userPutRoute).Methods("PUT")
 	userRouter.HandleFunc("", d.userDeleteRoute).Methods("DELETE")
 	userRouter.HandleFunc("", d.userRoute).Methods("GET")
+	userRouter.HandleFunc("/upgrade", d.upgradeRoute).Methods("POST")
 }
 
 func (d *UserDelivery) upgradeRoute(w http.ResponseWriter, r *http.Request) {
@@ -79,21 +79,6 @@ func (d *UserDelivery) userPostRoute(w http.ResponseWriter, r *http.Request) {
 	d.responder.Data(w, appStatus.Success, appStatus.StatusText(appStatus.Success), newUser)
 }
 
-func (d *UserDelivery) userPutRoute(w http.ResponseWriter, r *http.Request) {
-	userId, isExist := r.URL.Query()["id"]
-	if isExist {
-		var usrReq models.User
-		if err := d.parser.Parse(r, &usrReq); err != nil {
-			http.Error(w, "", http.StatusBadRequest)
-			return
-		}
-		userUpdate := d.service.UpdateInfo(userId[0], &usrReq)
-		d.responder.Data(w, appStatus.Success, appStatus.StatusText(appStatus.Success), userUpdate)
-	} else {
-		msg := appStatus.StatusText(appStatus.ErrorLackInfo)
-		d.responder.Error(w, appStatus.ErrorLackInfo, fmt.Sprintf(msg, "ID"))
-	}
-}
 
 func (d *UserDelivery) userDeleteRoute(w http.ResponseWriter, r *http.Request) {
 	userId, isExist := r.URL.Query()["id"]
